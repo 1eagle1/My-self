@@ -1,0 +1,113 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-image: url(/app/img/profile.jpg);
+}
+#head{
+  height: 40px;
+  width: 100%;
+}
+#li{
+  float: right;
+  list-style: none;
+}
+#a{
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 10px;
+  color: #030305;
+  padding: 5px 5px;
+}
+#a:hover{
+  box-shadow: 0px 0px 50px #FFFFFFD9;
+  background-color: #C2C2C2A3;
+  color: #2201DE;
+}
+#main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#main1{
+  backdrop-filter: blur(10px);
+  width: 250px;
+  margin-top: 60px;
+  border-radius: 20px;
+}
+#inp{
+  background: transparent;
+  height: 20px;
+  width: 200px;
+  margin-left: 23px;
+  margin-bottom: 10px;
+  border: 2px solid #423F42;
+  box-shadow: 0px 0px 20px #000000;
+  border-radius: 90px 90px 90px 90px;
+  text-align: center;
+  font-weight: bold;
+  color: #000000F5;
+  outline: none;
+  font-size: 20px;
+}
+#btn{
+  background: black;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  height: 30px;
+  width: 150px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  margin-top: 50px;
+  border-radius: 50px;
+  box-shadow: 0px 0px 50px #00EAFF;
+  cursor: pointer;
+}
+#btn:active{
+  background: transparent;
+  color: blue;
+  box-shadow: 0px 0px 50px #FF09FF;
+}
+#logo {
+  height: 110px;
+  width: 110px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  margin-left: 65px;
+  border: 2px solid black;
+  border-radius: 50%;
+  box-shadow: 0 0 50px #FF0E0E;
+}
+#bk{
+  width: 2rem;
+  margin-top: .3rem;
+  margin-left: .3rem;
+  float: left;
+  padding: .1rem;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  font-size: .6rem;
+  color: #FFFFFF;
+  background: black;
+  border: .1rem solid;
+  border-top-color: #00FF48CF;
+  border-left: none;
+  border-right: none;
+  border-bottom-color: #FF0000A3;
+  border-radius: 5rem;
+  box-shadow: 0 0 10px #FAFAFA;
+}
+#bk:active{
+  background-color: #FFFFFFB8 ;
+  box-shadow:0 0 3rem #000000;
+  color: #000000B0;
+  border: .1rem solid;
+  border-top-color: #FF0000A3;
+  border-left: none;
+  border-right: none;
+  border-bottom-color: #00FF2AA3;
+  
+}
