@@ -3,7 +3,7 @@
   padding: 0;
 }
 body{
-  background-image: url(/app/img/profile.jpg);
+  background-image: url(profile.jpg);
 }
 #head{
   height: 40px;
