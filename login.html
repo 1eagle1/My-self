@@ -1,0 +1,50 @@
+<!-- CSS FILE LINK WITH STYLE.CSS -->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"></script>
+  <title>INDEX</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="body">
+<?php
+include("conection.php");
+//error_reporting(0);
+?>
+<!--     icons       -->
+<i id="p1" class="fa-solid fa-user"></i>  
+<i id="p2"class="fa-solid fa-phone"></i>
+<!--     icons       -->
+  
+  
+  <form action="login.php" method="POST">
+    <p id="note"> Welcome USER
+    Hope you like this Interface.
+    <br>
+    <br>
+    Do you have already account to just click 
+    <a href="index.php" id="note0">
+      creat account</a>.
+      <br>
+      </p>
+
+      <input type="text" id="inp1" 
+      name="inp1" required>
+ 
+      <span id="s1">Username</span>
+
+      <input type="tel" id="inp2"
+      name="inp2" required>
+      
+      <span id="s2">Phone No.</span>
+
+      <input type="submit" name="btn" value="submit" id="btn">
+  
+  
+</body>
+
+</html>
