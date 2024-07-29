@@ -1,0 +1,200 @@
+*{
+    margin: 0 0 0 0;
+    padding: 0;
+  }#body{
+    background-color: #FFFFFF75;
+    height: 100vh;
+    position: relative;
+  }
+  #dis1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height:8rem;
+    width:4rem;
+    background-color: #8DEBFF45;
+    border-radius: 0 10rem 10rem 0;
+  }
+  #dis2 {
+    position: absolute;
+    top: 0;
+    left: 0rem;
+    height: 4rem;
+    width: 8rem;
+    background-color: #8DEBFF45;
+    border-radius: 0 0 10rem 10rem;
+  }
+  #dis3{
+    position: absolute;
+    top: 39rem;
+    right: 0;
+    height:8rem;
+    width:4rem;
+    background-color: #8DEBFF45;
+    border-radius: 10rem 0 0 10rem;
+  }
+  #dis4 {
+    position: absolute;
+    top: 43rem;
+    right: 0rem;
+    height: 4rem;
+    width: 8rem;
+    background-color: #8DEBFF45;
+    border-radius:10rem 10rem 0 0;
+  }
+  #note0{
+    text-decoration: none;
+  }
+  #note{
+    position: absolute;
+    top: 5rem;
+    left: 2.5rem;
+    text-decoration: none;
+    text-align: center;
+    font-size: .9em;
+    font-weight: bold;
+  }
+  #p1{
+    width: 1.8rem;
+    height: 1.8rem;
+    position: absolute;
+    left: 3rem;
+    top: 15rem;
+  }
+  #inp1{
+    position: absolute;
+    left: 6rem;
+    top: 15.2rem;
+    height:2rem;
+    width: 15rem;
+    padding: 0 0 0 .4rem;
+    outline: none;
+  }
+  #p2{
+    width: 1.8rem;
+    height: 1.8rem;
+    position: absolute;
+    left: 3rem;
+    top: 18.7rem;
+  }
+  #inp2{
+    position: absolute;
+    left: 6rem;
+    top: 18.5rem;
+    height:2rem;
+    width: 15rem;
+    padding: 0 0 0 .4rem;
+    outline: none;
+  }
+  #s1{
+    position: absolute;
+    top: 15.8rem;
+    left: 8rem;
+    color: #CFCFCFB8;
+    pointer-events: none;
+    transition: .3s;
+  }
+  #s2{
+    position: absolute;
+    top: 19rem;
+    left: 8rem;
+    color: #CFCFCFB8;
+    pointer-events: none;
+    transition: .3s;
+  }
+  #p3{
+    width: 1.5rem;
+    height: 1.5rem;
+    position: absolute;
+    left: 3rem;
+    top: 22rem;
+  }
+  #inp3a {
+    position: absolute;
+    left: 7.2rem;
+    top: 22rem;
+    height: 1.5rem;
+    font-size: .9em;
+    cursor: pointer;
+  }
+  #inp3b {
+    position: absolute;
+    left: 11.2rem;
+    top: 22rem;
+    height: 1.5rem;
+    font-size: .9em;
+    cursor: pointer;
+  }
+  #inp3c {
+    position: absolute;
+    left: 16.2rem;
+    top: 22rem;
+    height: 1.5rem;
+    font-size: .9em;
+    cursor: pointer;
+  }
+  #p4{
+    width: 1.8rem;
+    height: 1.8rem;
+    position: absolute;
+    left: 3rem;
+    top: 24.5rem;
+  }
+  #inp4 {
+    position: absolute;
+    top: 24.5rem;
+    left: 10rem;
+    height: 1.5rem;
+    cursor: pointer;
+  }
+  #p5{
+    width: 1.8rem;
+    height: 1.8rem;
+    position: absolute;
+    left: 3rem;
+    top: 27rem;
+  }
+  #inp5{
+    position: absolute;
+    top: 27.5rem;
+    left: 10rem;
+    height: 1.5rem;
+    width: 7rem;
+    text-align: center;
+    cursor: pointer;
+  }
+  #btn{
+    font-weight: bold;
+    font-size: 1em;
+    white-space: 2em;
+    position: absolute;
+    top: 30rem;
+    left: 2rem;
+    width: 20rem;
+    height: 2rem;
+    cursor: pointer;
+  }
+  #inp1:valid ~ #s1,
+  #inp1:focus ~ #s1{
+    border-right: 1px solid #CFCFCFB8;
+    border-left: 1px solid #CFCFCFB8;
+    padding: 0 .5rem 0 .5rem;
+    color: blueviolet;
+    background-color: #FFFFFF;
+    position: absolute;
+    top:14.8rem;
+    left: 6.5rem;
+    font-size: .7em;
+  }
+  #inp2:valid ~ #s2,
+  #inp2:focus ~ #s2 {
+    border-right: 1px solid #CFCFCFB8;
+    border-left: 1px solid #CFCFCFB8;
+    padding: 0 .5rem 0 .5rem;
+    color: blueviolet;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 18.2rem;
+    left: 6.5rem;
+    font-size: .7em;
+  }
